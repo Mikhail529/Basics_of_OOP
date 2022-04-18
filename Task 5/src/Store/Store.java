@@ -5,9 +5,9 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Store implements Flower, PackageFlower {
-    String nameCompany;
-    String nameOfFlowers;
-    String typeOfPackaging;
+    private String nameCompany;
+    private String nameOfFlowers;
+    private String typeOfPackaging;
 
     public Store(String nameCompany) {
         this.nameCompany = nameCompany;
